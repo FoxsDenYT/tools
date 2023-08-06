@@ -1,6 +1,8 @@
+@echo off
 echo FOX'S ULTIMATE SETUP
 pause
 echo installing...
+@echo on
 winget install -e --id Google.Chrome.Dev
 winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id PuTTY.PuTTY
@@ -27,6 +29,7 @@ winget install -e --id VB-Audio.Voicemeeter.Banana
 winget install -e --id Apple.iTunes
 winget install -e --id AnyDeskSoftwareGmbH.AnyDesk
 winget install -e --id Audacity.Audacity
+@echo off
 echo 
 echo 
 echo 
