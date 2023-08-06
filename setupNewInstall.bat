@@ -1,4 +1,5 @@
-echo THE ULTIMATE SETUP
+echo FOX'S ULTIMATE SETUP
+pause
 echo installing...
 winget install -e --id Google.Chrome.Dev
 winget install -e --id Microsoft.WindowsTerminal
